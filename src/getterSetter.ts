@@ -18,7 +18,7 @@ class BankAccount{
     }
 }
 const person = new BankAccount(22, "murad", 50);
-// console.log(person.balance);
+console.log(person.balance);
 person.deposit = 30;
 console.log(person.balance);
 
